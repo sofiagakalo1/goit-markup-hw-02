@@ -143,7 +143,6 @@ body {
   color: var(--brand-gray);
 }
 /* ------------------------PORTFOLIO--------------------- */
-/* --------------------PORTFOLIO-SECTIONS--------------------- */
 .sections-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -161,7 +160,6 @@ body {
   color: var(--brand-white);
   background: var(--brand-blue);
 }
-/* -------------------PORTFOLIO-EXAMPLES--------------------- */
 .portfolio-examples-text {
   font-weight: 700;
   font-size: 18px;
