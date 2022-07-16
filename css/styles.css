@@ -4,6 +4,8 @@
   --brand-white: #ffffff;
   --brand-gray: #757575;
   --brand-dark-blue: #2f303a;
+  --logo-black:#000000;
+  --main-btn-hover:#188ce8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -15,7 +17,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* ------------------------HEADER--------------------- */
+/* ----------------------HEADER------------------- */
 .header {
   background: var(--brand-white);
 }
@@ -31,7 +33,7 @@ body {
   color: var(--brand-blue);
 }
 .logo-black {
-  color: #000000;
+  color:var(--logo-black) ;
 }
 .header-link {
   font-weight: 500;
@@ -57,7 +59,7 @@ body {
 .current {
   color: var(--brand-blue);
 }
-/* ------------------------MAIN--------------------- */
+/* ----------------------MAIN-------------------- */
 .main {
   background: var(--brand-dark-blue);
 }
@@ -86,7 +88,7 @@ body {
 }
 .main-btn:hover,
 .main-btn:focus {
-  background: #188ce8;
+  background: var(--main-btn-hover);
 }
 /* ------------------------BENEFITS--------------------- */
 .benefits {
